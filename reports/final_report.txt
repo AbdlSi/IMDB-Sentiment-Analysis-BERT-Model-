@@ -1,0 +1,42 @@
+Results Observations:
+TPU enabled efficient large-scale fine-tuning of BERT.
+
+Metrics improved steadily, indicating stable convergence.
+
+Validation and test results are close, showing good generalization.
+
+Best model selected based on balanced F1 and AUC, not just accuracy.
+
+Results: Validation Performance (Per Epoch)
+
+Epoch 1
+
+Accuracy: 66.9%
+
+AUC: 0.74
+
+F1-score: 0.706
+
+Epoch 2
+
+Accuracy: 68.1%
+
+AUC: 0.775
+
+F1-score: 0.731
+
+Epoch 3
+
+Accuracy: 69.5% (best accuracy)
+
+AUC: 0.785
+
+F1-score: 0.737
+
+Epoch 4
+
+Accuracy: 69.0%
+
+AUC: 0.787 (best AUC)
+
+F1-score: 0.739 (best F1)
