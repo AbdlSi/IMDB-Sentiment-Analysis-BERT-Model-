@@ -26,20 +26,16 @@ imdb-bert-sentiment/
 │   ├── raw/
 │   │   └── imdb.csv
 │   └── processed/
-│       ├── clean_data_&_EDA.csv
-│       └── tokenized_data/
+│       └── clean_data.csv
 │
 ├── notebooks/
 │   ├── data_cleaning_&_EDA.ipynb
-│   ├── data_tokenization.ipynb
-│   └── imdb_bert_finetuning.ipynb
+│   └── data_tokenization_&_model_tuning_&_evaluation.ipynb
 │
-├── models/
-│   └── bert-base/       
+├── models/       
 │
 ├── reports/
-│   ├── performance_report.md
-│   └── figures/
+│   └── final_report.txt
 │
 ├── requirements.txt
 └── README.md
